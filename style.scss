@@ -1,0 +1,50 @@
+//* START VARIABLES */
+//? colors
+// primary color 
+$lgradient: hsl(236, 72%, 79%);
+$lngradiente: hsl(237, 63%, 64%);
+
+// neutral colors
+$vlgblue: hsl(240, 78%, 98%);
+$lgblue: hsl(234, 14%, 74%);
+$gblue: hsl(233, 13%, 49%);
+$dgblue: hsl(232, 13%, 33%);
+
+//? typography
+// body copy
+$fs: 15px;
+//font family
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+//* ^<-- Montserrat
+//* END VARIABLES */
+
+#bg-bottom{
+    position: absolute;
+    bottom: 0px;
+}
+
+#bg-top{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $vlgblue;
+}
+
+#toggle{
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(-60%);
+
+    #titlepr{
+        font-family: 'Montserrat';
+        color: $gblue;
+    }
+}
